@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PSCMP
 Tags: flash, swf, swfobject, widget, shortcode
 Requires at least: 2.8
 Tested up to: 3.0.5
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Allows you to insert a swf file using a widget or a shortcode using the swfobject library.
 
@@ -27,7 +27,7 @@ NOTE: sc means shortcode:
 - Params: Params for swf. eg, {menu:"false"} (sc: params="")
 - Attributes: Attributes for swf. eg, {id:"myDynamicContent",name:"myDynamicContent"} (sc: attributes="")
 
-Check out swfoject documentation for more info. (http://code.google.com/p/swfobject/wiki/documentation)
+Check out swfobject documentation for more info. (http://code.google.com/p/swfobject/wiki/documentation)
 
 Shortcode Examples:
 
@@ -75,6 +75,7 @@ Email: wpjjcoder@gmail.com
 
 == Changelog ==
 
+- 1.0.2: Readme.
 - 1.0.1: FAQ.
 - 1.0.0: First version.
 
