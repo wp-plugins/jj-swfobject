@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PSCMP
 Tags: flash, swf, swfobject, widget, shortcode
 Requires at least: 2.8
 Tested up to: 3.0.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 Allows you to insert a swf file using a widget or a shortcode using the swfobject library.
 
@@ -51,7 +51,21 @@ Please refer to the description for requirements and how to use this plugin.
 
 == Frequently Asked Questions ==
 
-None yet.
+Question: 
+
+- How can I upload swf files using wordpress Media?
+
+Answer: 
+
+- Try adding code below to your functions.php file
+
+`if ( ! function_exists( 'add_my_mime_types' ) ) :
+function add_my_mime_types($existing_mimes=array()) {
+  $existing_mimes['swf'] = 'application/x-shockwave-flash';
+  return $existing_mimes;
+}
+endif;
+add_filter('upload_mimes', 'add_my_mime_types');`
 
 Email: wpjjcoder@gmail.com
 
@@ -61,6 +75,7 @@ Email: wpjjcoder@gmail.com
 
 == Changelog ==
 
+- 1.0.1: FAQ.
 - 1.0.0: First version.
 
 == Contributors ==
