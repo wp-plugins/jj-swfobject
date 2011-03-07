@@ -3,7 +3,7 @@
 Plugin Name: JJ SwfObject
 Description: Allows you to insert a swf file using a widget or a shortcode using the swfobject library.
 Author: JJ Coder
-Version: 1.0.2
+Version: 1.0.4
 */
 
 if ( ! defined( 'WPJJ_SWFOBJECT_PLUGIN_BASENAME' ) )
@@ -21,7 +21,7 @@ function WPJJ_SWFOBJECT_set_plugin_meta($links, $file)
   if ($file == $plugin) 
   {
     $links[] = '<a href="http://wordpress.org/extend/plugins/jj-swfobject/">' . 'Visit plugin site' . '</a>';    
-    $links[] = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PSCMPVDADYP74&lc=NZ&item_name=JJSwfObject&item_number=jjcoder_swfobject&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">' . 'Donate' . '</a>';
+    $links[] = '<a href="http://www.redcross.org.nz/donate">' . 'Donate to Christchurch Quake' . '</a>';
   }
   return $links;
 }

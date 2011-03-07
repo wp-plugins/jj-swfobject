@@ -1,10 +1,10 @@
 === JJ SwfObject ===
 Contributors: JJ Coder
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PSCMPVDADYP74&lc=NZ&item_name=JJSwfObject&item_number=jjcoder_swfobject&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+Donate link: http://www.redcross.org.nz/donate
 Tags: flash, swf, swfobject, widget, shortcode
 Requires at least: 2.8
-Tested up to: 3.0.5
-Stable tag: 1.0.2
+Tested up to: 3.1
+Stable tag: 1.0.4
 
 Allows you to insert a swf file using a widget or a shortcode using the swfobject library.
 
@@ -67,7 +67,21 @@ function add_my_mime_types($existing_mimes=array()) {
 endif;
 add_filter('upload_mimes', 'add_my_mime_types');`
 
-Email: wpjjcoder@gmail.com
+Question:
+
+- How can I use plugin inside normal PHP code?
+
+Answer:
+
+- echo do_shortcode('[jj-swfobject path="/mypath" html_id="banner" width="200" height="200" version="9.0.0"]');
+
+Question:
+
+- Doesn't work after upgrade? or Doesn't work with this theme? ... going to give you bad rating if blah blah... etc
+  
+Answer:
+
+- Please check that you don't have two versions of jQuery loading, this is the problem most of the time. Also I don't care if people give me a bad rating... even if its due to some technical fault outside of the scope of the plugin. I made these plugins because I required the functionality and I thought other people might find them useful.
 
 == Screenshots ==
 
@@ -75,10 +89,9 @@ Email: wpjjcoder@gmail.com
 
 == Changelog ==
 
+- 1.0.4: Donate to Christchurch Quake.
 - 1.0.2: Readme.
 - 1.0.1: FAQ.
 - 1.0.0: First version.
 
 == Contributors ==
-
-JJ Coder wpjjcoder@gmail.com
