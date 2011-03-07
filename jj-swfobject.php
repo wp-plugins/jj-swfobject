@@ -3,7 +3,7 @@
 Plugin Name: JJ SwfObject
 Description: Allows you to insert a swf file using a widget or a shortcode using the swfobject library.
 Author: JJ Coder
-Version: 1.0.4
+Version: 1.0.5
 */
 
 if ( ! defined( 'WPJJ_SWFOBJECT_PLUGIN_BASENAME' ) )
